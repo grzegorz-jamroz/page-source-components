@@ -1,0 +1,16 @@
+{
+  "name": "grzegorz-jamroz/page-source-components",
+  "description": "Components for Page Source System",
+  "homepage": "https://rockujemy.pl",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ifrost\\PageSourceComponents\\": "src/"
+    }
+  },
+  "require": {
+    "doctrine/collections": "^1.6",
+    "friendsofphp/php-cs-fixer": "^3.0",
+    "phpstan/phpstan": "^0.12.87"
+  }
+}
