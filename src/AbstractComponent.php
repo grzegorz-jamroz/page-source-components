@@ -13,4 +13,14 @@ abstract class AbstractComponent implements ComponentInterface
     {
         return array_keys($this->jsonSerialize());
     }
+
+    public function getCreateCommands(array $data = []): array
+    {
+        return [];
+    }
+
+    public function getUpdateCommands(array $data = []): array
+    {
+        return [];
+    }
 }
