@@ -2,7 +2,7 @@
 
 ## Description
 
-Components for [https://github.com/grzegorz-jamroz/page-source-system](Page Source System).
+Components for [Page Source System](https://github.com/grzegorz-jamroz/page-source-system).
 
 ## Installation
 
