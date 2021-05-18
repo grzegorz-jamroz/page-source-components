@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Ifrost\PageSourceComponents;
 
+use Ifrost\Common\ArrayConstructable;
+
 interface ComponentInterface extends \JsonSerializable
 {
     public static function getTypename(): string;
@@ -16,14 +18,14 @@ interface ComponentInterface extends \JsonSerializable
     /**
      * @param array<string, mixed> $data
      *
-     * @return array<int, mixed>
+     * @return array<int, ArrayConstructable>
      */
     public function getCreateCommands(array $data = []): array;
 
     /**
      * @param array<string, mixed> $data
      *
-     * @return array<int, mixed>
+     * @return array<int, ArrayConstructable>
      */
     public function getUpdateCommands(array $data = []): array;
 

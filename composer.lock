@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "741f62d4d69c1927c7dfe15cb128dc22",
+    "content-hash": "75bd6e8b1c7e7d849ad97e0e9ddc67da",
     "packages": [
         {
             "name": "doctrine/collections",
@@ -74,6 +74,46 @@
                 "source": "https://github.com/doctrine/collections/tree/1.6.7"
             },
             "time": "2020-07-27T17:53:49+00:00"
+        },
+        {
+            "name": "grzegorz-jamroz/php-common",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/grzegorz-jamroz/php-common.git",
+                "reference": "b19a654ae1362666c67e3e893f7ad86876e19bb9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/grzegorz-jamroz/php-common/zipball/b19a654ae1362666c67e3e893f7ad86876e19bb9",
+                "reference": "b19a654ae1362666c67e3e893f7ad86876e19bb9",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/collections": "^1.6",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.0",
+                "phpstan/phpstan": "^0.12.87"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ifrost\\Common\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Collection of common interfaces shared between projects",
+            "homepage": "https://rockujemy.pl",
+            "support": {
+                "issues": "https://github.com/grzegorz-jamroz/php-common/issues",
+                "source": "https://github.com/grzegorz-jamroz/php-common/tree/0.0.1"
+            },
+            "time": "2021-05-18T18:44:01+00:00"
         }
     ],
     "packages-dev": [
@@ -2145,7 +2185,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }
