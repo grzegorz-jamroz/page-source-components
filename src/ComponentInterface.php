@@ -6,7 +6,7 @@ namespace Ifrost\PageSourceComponents;
 
 use Ifrost\Common\ArrayConstructable;
 
-interface ComponentInterface extends \JsonSerializable
+interface ComponentInterface extends \JsonSerializable, ArrayConstructable
 {
     public static function getTypename(): string;
 
