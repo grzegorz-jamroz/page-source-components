@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9d72797f587d26290b43c8e1825d1313",
+    "content-hash": "a1364654e6586e9140023991ff62dea6",
     "packages": [
         {
             "name": "doctrine/collections",
@@ -77,16 +77,16 @@
         },
         {
             "name": "grzegorz-jamroz/php-common",
-            "version": "0.0.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grzegorz-jamroz/php-common.git",
-                "reference": "9fbd1e9738a134cd0af02da6eabce738f957e9ce"
+                "reference": "ae344efb051615850e1c9348c0714dcb35720577"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/grzegorz-jamroz/php-common/zipball/9fbd1e9738a134cd0af02da6eabce738f957e9ce",
-                "reference": "9fbd1e9738a134cd0af02da6eabce738f957e9ce",
+                "url": "https://api.github.com/repos/grzegorz-jamroz/php-common/zipball/ae344efb051615850e1c9348c0714dcb35720577",
+                "reference": "ae344efb051615850e1c9348c0714dcb35720577",
                 "shasum": ""
             },
             "require": {
@@ -97,6 +97,7 @@
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "phpstan/phpstan": "^0.12.87"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -111,9 +112,9 @@
             "homepage": "https://rockujemy.pl",
             "support": {
                 "issues": "https://github.com/grzegorz-jamroz/php-common/issues",
-                "source": "https://github.com/grzegorz-jamroz/php-common/tree/0.0.2"
+                "source": "https://github.com/grzegorz-jamroz/php-common/tree/master"
             },
-            "time": "2021-05-18T19:40:59+00:00"
+            "time": "2021-05-18T20:22:45+00:00"
         }
     ],
     "packages-dev": [
@@ -2182,7 +2183,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "grzegorz-jamroz/php-common": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

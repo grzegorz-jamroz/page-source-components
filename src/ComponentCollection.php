@@ -20,6 +20,6 @@ class ComponentCollection extends ArrayCollection
 
         $componentClass = $this->get($typename) ?? '';
 
-        return $componentClass::createFromArray();
+        return $componentClass::createFromArray([]);
     }
 }
