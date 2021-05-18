@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a1364654e6586e9140023991ff62dea6",
+    "content-hash": "41ea147feb19ca3ee73ec8bab464ebcd",
     "packages": [
         {
             "name": "doctrine/collections",
@@ -77,7 +77,7 @@
         },
         {
             "name": "grzegorz-jamroz/php-common",
-            "version": "dev-master",
+            "version": "0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grzegorz-jamroz/php-common.git",
@@ -97,7 +97,6 @@
                 "friendsofphp/php-cs-fixer": "^3.0",
                 "phpstan/phpstan": "^0.12.87"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -112,7 +111,7 @@
             "homepage": "https://rockujemy.pl",
             "support": {
                 "issues": "https://github.com/grzegorz-jamroz/php-common/issues",
-                "source": "https://github.com/grzegorz-jamroz/php-common/tree/master"
+                "source": "https://github.com/grzegorz-jamroz/php-common/tree/0.0.3"
             },
             "time": "2021-05-18T20:22:45+00:00"
         }
@@ -2183,9 +2182,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "grzegorz-jamroz/php-common": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
