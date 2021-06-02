@@ -10,6 +10,10 @@ interface ComponentInterface extends \JsonSerializable, ArrayConstructable
 {
     public static function getTypename(): string;
 
+    public function getUuid(): string;
+
+    public function getLanguage(): string;
+
     /**
      * @return array<int, string>
      */

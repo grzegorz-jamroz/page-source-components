@@ -6,6 +6,22 @@ namespace Ifrost\PageSourceComponents;
 
 abstract class AbstractComponent implements ComponentInterface
 {
+    public function __construct(
+        private string $uuid,
+        private string $language
+    ) {
+    }
+
+    public function getUuid(): string
+    {
+        return $this->uuid;
+    }
+
+    public function getLanguage(): string
+    {
+        return $this->language;
+    }
+
     /**
      * @return array<int, string>
      */
