@@ -12,6 +12,11 @@ use Ifrost\PageSourceComponents\Exception\SettingNotExist;
  */
 class SettingCollection extends ArrayCollection
 {
+    /**
+     * @param array<string, mixed> $data
+     *
+     * @throws SettingNotExist
+     */
     public function getComponent(
         string $typename,
         array $data = []

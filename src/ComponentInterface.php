@@ -9,9 +9,13 @@ use Ifrost\Common\ArrayConstructable;
 interface ComponentInterface extends \JsonSerializable, ArrayConstructable
 {
     public static function getTypename(): string;
+
     public function getUuid(): string;
+
     public function getLanguage(): string;
+
     public function getLabel(): string;
+
     public function getInternalTitle(): string;
 
     /**
