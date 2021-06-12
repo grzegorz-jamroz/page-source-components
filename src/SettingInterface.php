@@ -6,13 +6,9 @@ namespace Ifrost\PageSourceComponents;
 
 use Ifrost\Common\ArrayConstructable;
 
-interface ComponentInterface extends \JsonSerializable, ArrayConstructable
+interface SettingInterface extends \JsonSerializable, ArrayConstructable
 {
     public static function getTypename(): string;
-    public function getUuid(): string;
-    public function getLanguage(): string;
-    public function getLabel(): string;
-    public function getInternalTitle(): string;
 
     /**
      * @return array<int, string>
@@ -32,8 +28,6 @@ interface ComponentInterface extends \JsonSerializable, ArrayConstructable
      * @return array<int, ArrayConstructable>
      */
     public function getUpdateCommands(array $data = []): array;
-
-    public function getHtmlClass(): string;
 
     /**
      * @return array<string, mixed>
