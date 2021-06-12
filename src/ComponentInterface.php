@@ -12,6 +12,11 @@ interface ComponentInterface extends \JsonSerializable, ArrayConstructable
 
     public static function getLabel(): string;
 
+    /**
+     * @return array<int,string>
+     */
+    public static function getRelations(): array;
+
     public function getUuid(): string;
 
     public function getLanguage(): string;
