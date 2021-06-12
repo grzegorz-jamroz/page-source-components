@@ -9,7 +9,6 @@ abstract class AbstractComponent implements ComponentInterface
     public function __construct(
         private string $uuid,
         private string $language,
-        private string $label,
         private string $internalTitle,
     ) {
     }
@@ -22,11 +21,6 @@ abstract class AbstractComponent implements ComponentInterface
     public function getLanguage(): string
     {
         return $this->language;
-    }
-
-    public function getLabel(): string
-    {
-        return $this->label;
     }
 
     public function getInternalTitle(): string
