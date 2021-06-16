@@ -6,7 +6,7 @@ namespace Ifrost\PageSourceComponents;
 
 abstract class AbstractComponent implements ComponentInterface
 {
-    const NOT_EDITABLE_FIELDS = [
+    public const NOT_EDITABLE_FIELDS = [
         'uuid',
         '__typename',
         'language',
@@ -14,7 +14,7 @@ abstract class AbstractComponent implements ComponentInterface
         'internalTitle',
     ];
 
-    const FIELDS_NOT_FOR_RENDER = [
+    public const FIELDS_NOT_FOR_RENDER = [
         'internalTitle',
         'relations',
         'label',

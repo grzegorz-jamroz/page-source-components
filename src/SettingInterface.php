@@ -10,6 +10,8 @@ interface SettingInterface extends \JsonSerializable, ArrayConstructable
 {
     public static function getTypename(): string;
 
+    public static function getFileName(): string;
+
     /**
      * @return array<int, string>
      */
