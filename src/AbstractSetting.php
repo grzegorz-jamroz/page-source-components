@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Ifrost\PageSourceComponents;
 
-abstract class AbstractSetting implements ComponentInterface
+abstract class AbstractSetting implements SettingInterface
 {
     /**
      * @return array<int, string>
