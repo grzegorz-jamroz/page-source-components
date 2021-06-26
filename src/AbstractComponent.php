@@ -11,7 +11,6 @@ abstract class AbstractComponent implements ComponentInterface
         '__typename',
         'language',
         'label',
-        'internalTitle',
     ];
 
     public const FIELDS_NOT_FOR_RENDER = [
